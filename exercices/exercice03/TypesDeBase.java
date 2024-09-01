@@ -2,7 +2,7 @@ package exercices.exercice03;
 
 public class TypesDeBase {
     public static void main(String[] args) {
-        byte age; //déclarer pour pouvoir changer la valeur en plein code 
+        byte age = 24; //déclarer pour pouvoir changer la valeur en plein code 
         age = 16;
         String nom = "Ephram Guenaud";
         System.out.println("Je m'appelle " + nom + " et j'ai " + age + "ans");

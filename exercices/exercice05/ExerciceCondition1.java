@@ -1,6 +1,6 @@
 public class ExerciceCondition1 {
     public static void main(String[] args) {
-        int valeurATester = 0;
+        int valeurATester = 5;
         System.out.println("Valeur entrée : " + valeurATester);
         System.out.println("calcule en cours.....");
         if (valeurATester > 0){

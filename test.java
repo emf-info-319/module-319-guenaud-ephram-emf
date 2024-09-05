@@ -6,6 +6,6 @@ public class test {
         String salut = "salut comme tu vas ?";
         System.out.println(salut);
         System.out.println("salut");
-        System.out.println("hello word");
+        System.out.println("hello word " + yenSymbol + estValide + age);
     }
 }

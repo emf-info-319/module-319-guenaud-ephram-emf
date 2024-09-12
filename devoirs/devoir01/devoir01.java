@@ -12,9 +12,11 @@ public class devoir01 {
         System.out.println("Mon âge est de " + monAge + "ans");
         if (estMajeur == true) {
             System.out.println("Je suis majeur");
+            System.out.println("t'as pas besoin de moi wsh");
         }
         else {
             System.out.println("Je ne suis pas encore majeur");
+            System.out.println("t'as encore besoin de moi wsh ?");
         }
     }
 }

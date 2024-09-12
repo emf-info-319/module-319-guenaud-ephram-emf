@@ -21,14 +21,11 @@ public class ExcerciceBoucles4 {
         System.out.println("Décollage !!");
         System.out.println(" ");
         System.out.println("Boucle do-while:");
-        int y = 6;
+        short y = 6;
         boolean laCondition = true;
         do {
             y--;
             System.out.println(y);
-            if (y < 2) {
-                laCondition = false;
-            }
         } while (laCondition == true);
         System.out.println("Décollage !!");
     }

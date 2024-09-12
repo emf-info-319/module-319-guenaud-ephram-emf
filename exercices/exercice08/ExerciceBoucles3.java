@@ -1,5 +1,3 @@
-package exercices.exercice08;
-
 public class ExerciceBoucles3 {
     public static void main(String[] args) {
         int z = 0;

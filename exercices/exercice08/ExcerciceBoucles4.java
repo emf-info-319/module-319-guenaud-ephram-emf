@@ -24,6 +24,9 @@ public class ExcerciceBoucles4 {
         do {
             y--;
             System.out.println(y);
+            if (y == 1) {
+                break;  
+            }
         } while (laCondition == true);
         System.out.println("Décollage !!");
     }

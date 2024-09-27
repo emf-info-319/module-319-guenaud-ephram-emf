@@ -13,7 +13,7 @@ public class Activity2 {
          * Pour tester si un mot de passe est correct, il faut appeler la méthode testPassword en lui donnant en paramètre le password à tester
          * Testez votre application en affichant un SOUT pour chaque password essayé et retestez sans ce SOUT. Voyez vous une différence ?
          */
-
+        
 
 
     }

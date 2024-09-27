@@ -6,16 +6,12 @@ public class Activity1 {
     
     
     public static void main(String[] args) {
-        /*
-         * à faire : afficher le mot de passe trouvé avec un sout
-         * Le mot de passe se trouve dans le tableau des mots de passe les plus utilisé PASSWORDS
-         * Pour tester si un mot de passe est correct, il faut appeler la méthode testPassword en lui donnant en paramètre le password à tester
-         * Testez votre application en affichant un SOUT pour chaque password essayé et retestez sans ce SOUT. Voyez vous une différence ?
-         */
-
-
-
-
+        for (int i = 0; 0 < PASSWORDS.length; i++){
+            boolean test = testPassword(PASSWORDS[i]);
+            if (test) {
+                System.out.println("Le mote de passe est " + PASSWORDS[i]);
+            }
+        }
     }
 
      public static boolean testPassword(String passwordToTest) {

@@ -4,7 +4,7 @@ public class devoir03 {
     int mois = 2;
     int annee = 2024; //declaration de variable
     int[] tableauMois;
-    tableauMois = new int[]{0,31,28,31,30,31,30,31,31,30,31,30,31};//tableau pour avoir tout les jours dans un mois de l'annee 
+    tableauMois = new int[]{0,31,28,31,30,31,30,31,31,30,31,30,31};//tableau pour avoir tout les jours dans un mois de l'annee
     int jourtotal = 0;
     if (annee %  4 == 0 || annee % 400 == 0) { //modulo pour savoir si l'annee est bisextile ou pas
         tableauMois[2] = 29;

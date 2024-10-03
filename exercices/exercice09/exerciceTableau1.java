@@ -1,10 +1,10 @@
 public class exerciceTableau1 {
     public static void main(String[] args) {
-        int[] monTableau; //déclaration du tableau
-        monTableau = new int[3];
-        for (int valeurCellule = 0; valeurCellule < monTableau.length; valeurCellule++) {
-            System.out.println(monTableau[valeurCellule]);
-        }
+            int[] monTableau; //déclaration du tableau
+            monTableau = new int[3];
+            for (int valeurCellule = 0; valeurCellule < monTableau.length; valeurCellule++) {
+                System.out.println(monTableau[valeurCellule]);
+            }
         String[] monTableauTxt;
         monTableauTxt = new String[3];
         for (int valeurCellule1 = 0; valeurCellule1 < monTableauTxt.length; valeurCellule1++) {

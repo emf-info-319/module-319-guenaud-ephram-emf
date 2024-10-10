@@ -20,7 +20,7 @@ Résultat désiré à la sortie (console) :
 
 >Nombre de caractères contenu dans la variable maChaineDeCaractere : 39 <br>
 >Le mot "contenu" commence à la position : 9 <br>
->Le position 17 contient la lettre : s <br>
+>La position 17 contient la lettre : s <br>
 
 6. Déclarez maintenant une nouvelle variable de type String avec le nom `monPrenom`. 
 

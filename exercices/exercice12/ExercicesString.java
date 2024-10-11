@@ -18,8 +18,4 @@ public class ExercicesString {
             System.out.println("La chaîne de caractère \"" + monPrenom + "\" ne contient pas le texte \"test\".");
         }
     }
-
-    public static void méthodeA(boolean méthodeA){
-        méthodeA = true;
-    }
 }

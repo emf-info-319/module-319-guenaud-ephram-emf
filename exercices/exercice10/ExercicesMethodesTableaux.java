@@ -109,7 +109,7 @@ public class ExercicesMethodesTableaux {
         for (int i = 0; i < tableauCalcule.length; i++) {
             moyenne = moyenne + tableauCalcule[i];
         }
-        moyenne = moyenne / VALEUR;
+        moyenne = (double) moyenne / VALEUR;
         return moyenne;
     }
 

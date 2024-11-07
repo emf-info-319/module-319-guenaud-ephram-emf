@@ -1,9 +1,10 @@
 package exercice10;
 
 public class ExercicesMethodesTableaux {
-    public final static int MAX = 20;
-    public final static int MIN = 1;
+    public final static int MAXTAB = 20;
+    public final static int MINTAB = 1;
     public final static int VALEUR = 50;
+    public final static int VALEURACHERCHER = 13;
     public static void main(String[] args) {
         System.out.println("Le tableau a un taille de 50 cellules.\n");
         System.out.println("\nContenu du tableau aléatoire : ");
@@ -23,8 +24,8 @@ public class ExercicesMethodesTableaux {
         }
         int somme = sommeTab(tabRandom);
         double moyenne = moyenneTab(tabRandom);
-        int positionDeb = occurenceDeb(tabRandom, 13);
-        int positionFin = occurenceFin(tabRandom, 13);
+        int positionDeb = occurenceDeb(tabRandom, VALEURACHERCHER);
+        int positionFin = occurenceFin(tabRandom, VALEURACHERCHER);
         System.out.println("\nLa somme des cellules du tableau = " + somme);
         System.out.println("La moyenne des cellules du tableau = " + moyenne);
         System.out.println("La valeur 13 a été trouvée à la 1ère position N°" + positionDeb);
@@ -46,7 +47,7 @@ public class ExercicesMethodesTableaux {
 
     public static int[] valeurAléatoir(int[] tableauARemplir) {
         for (int i = 0; i < tableauARemplir.length; i++) {
-            tableauARemplir[i] = (int) (Math.random() * (MAX - MIN + 1)) + MIN;
+            tableauARemplir[i] = (int) (Math.random() * (MAXTAB - MINTAB + 1)) + MINTAB;
         }
         return tableauARemplir;
     }

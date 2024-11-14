@@ -21,16 +21,16 @@ public class livret {
             int col1 = 1;
             int col2 = 1;
         for (int i = 0; i < tabMultiplication.length; i++) {
-            do {
+           // do {
                 tabMultiplication[i] = col1 + " X " + col2 + " = " + (col1 * col2);
                 if (col2 == nbr2) {
                     col1++;
                     col2 = 1;
-                    break;
+                    //break;
                 }
                 col2++;
-                break;
-            } while  (col1 != nbr1);
+              //  break;
+           // } while  (col1 != nbr1);
         }
         return tabMultiplication;
     }

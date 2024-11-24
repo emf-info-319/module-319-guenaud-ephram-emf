@@ -3,7 +3,14 @@ public class Symphonie {
     public static int NBRE_NOTES = 5;
     public static int NBRE_PARTITIONS = 3;
     public static void main(String[] args) {
-        
+        String partition;
+        int i = 0;
+        do{
+            partition = creerLaPartition();
+            System.out.println("La partition " + i + " est :" + partition);
+            partition = " ";
+            i++;
+        } while (i < NBRE_PARTITIONS);
     }
 
     public static int choisirUnNombre(int min, int max) {
@@ -22,14 +29,18 @@ public class Symphonie {
         return estDiese;
     }
 
-    public static String creerLaPartition(int NBRE_NOTES) {
+    public static String creerLaPartition() {
         String partition = " ";
+        String note = " ";
         for (int i = 0; i < NBRE_NOTES; i++) {
             boolean estDiese = estDiese();
             if (estDiese == true) {
-                
+                note = NOTES[choisirUnNombre(1, 7)] + "#";
+            } else {
+                note = NOTES[choisirUnNombre(1, 7)];
             }
-            partition = partition + " " + NOTES[choisirUnNombre(1, 7)];
+            partition = partition + " " + note;
         }
+        return partition;
     }
 }
